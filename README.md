@@ -20,6 +20,13 @@ Investigação judiciais.
 ![Hashcat](https://img.shields.io/badge/Hashcat-1ABC9C?style=for-the-badge)
 ![Kaspersky](https://img.shields.io/badge/Kaspersky-0C75D5?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+[![Nmap](https://img.shields.io/badge/Nmap-238636?style=for-the-badge&logo=nmap&logoColor=white)](https://nmap.org/)
+[![dirb](https://img.shields.io/badge/dirb-FF6A00?style=for-the-badge)](https://dirb.sourceforge.net/)
+[![netcat](https://img.shields.io/badge/netcat-1F8ACB?style=for-the-badge)](https://nc110.sourceforge.io/)
+[![SSH](https://img.shields.io/badge/SSH-007ACC?style=for-the-badge&logo=openssh&logoColor=white)](https://www.openssh.com/)
+[![pfSense](https://img.shields.io/badge/pfSense-FF0033?style=for-the-badge)](https://www.pfsense.org/)
+[![iptables](https://img.shields.io/badge/iptables-CC0000?style=for-the-badge)](https://netfilter.org/projects/iptables/index.html)
+
 
 ## 🏅 Certificações
 
