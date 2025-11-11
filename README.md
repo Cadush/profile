@@ -4,7 +4,7 @@
 ## 💡 Sobre mim
 Olá! Eu sou **Carlos Santos**, Analista de Segurança da Informação. 
 Experiência com identificação, análise e mitigação de vulnerabilidades. 
-Investigação judiciais. 
+Investigação judicial - OSINT. 
 
 
 - 🔭 Atualmente: Analista de Segurança da Informação & Analista de Tecnologia da Informação II.
