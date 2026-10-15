@@ -1,287 +1,284 @@
-<!-- ============================================================ -->
-<!--                    root@cadush:~$ cat README.md               -->
-<!-- ============================================================ -->
+<!--
+  root@cadush:~$ cat README.md
+  Assets animados em ./assets (SVG puro, sem JS, respeitam prefers-reduced-motion).
+-->
+
+<a href="https://cadush.github.io">
+  <img src="./assets/header.svg" width="100%" alt="Carlos Santos — Information Security Analyst · Pentest · AppSec · Cloud Security"/>
+</a>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3d0f,100:00ff00&height=220&section=header&text=Carlos%20Santos&fontSize=60&fontColor=00ff00&fontAlignY=38&desc=Information%20Security%20Analyst%20%7C%20Pentest%20%7C%20AppSec%20%7C%20Cloud%20Security&descAlignY=60&descSize=16&animation=fadeIn" alt="Carlos Santos"/>
+  <a href="https://www.linkedin.com/in/cadush/"><img src="https://img.shields.io/badge/linkedin-cadush-161b22?style=for-the-badge&logo=linkedin&logoColor=00ff41&labelColor=0d1117" alt="LinkedIn"/></a>
+  <a href="https://cadush.github.io"><img src="https://img.shields.io/badge/web-cadush.github.io-161b22?style=for-the-badge&logo=githubpages&logoColor=00ff41&labelColor=0d1117" alt="Portfólio"/></a>
+  <a href="https://tryhackme.com/p/c.sh"><img src="https://img.shields.io/badge/tryhackme-c.sh-161b22?style=for-the-badge&logo=tryhackme&logoColor=00ff41&labelColor=0d1117" alt="TryHackMe"/></a>
+  <a href="mailto:carloseduardosh04@gmail.com"><img src="https://img.shields.io/badge/mail-contato-161b22?style=for-the-badge&logo=gmail&logoColor=00ff41&labelColor=0d1117" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Cadush&style=for-the-badge&color=161b22&label=visits" alt="Visitas"/>
 </p>
 
-<p align="center">
-  <a href="https://cadush.github.io">
-    <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=700&size=20&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=root%40cadush%3A~%24+whoami;Analista+de+Seguran%C3%A7a+da+Informa%C3%A7%C3%A3o;Pentest+%7C+AppSec+%7C+Red+%26+Blue+Team;SIEM+%2B+SOAR+%2B+EDR+%2B+Zero+Trust;Engenharia+Reversa+%26+An%C3%A1lise+de+Malware;Scanning+portfolio...+%5BVulnerabilities%3A+0%5D" alt="Typing SVG"/>
-  </a>
-</p>
+<br>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/cadush/"><img src="https://img.shields.io/badge/LinkedIn-cadush-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://cadush.github.io"><img src="https://img.shields.io/badge/Portfólio-cadush.github.io-00ff00?style=for-the-badge&logo=githubpages&logoColor=black" alt="Portfólio"/></a>
-  <a href="https://tryhackme.com/p/c.sh"><img src="https://img.shields.io/badge/TryHackMe-c.sh-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"/></a>
-  <a href="mailto:carloseduardosh04@gmail.com"><img src="https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Cadush&style=for-the-badge&color=00ff00&label=VISITAS" alt="Visitas"/>
-</p>
-
----
-
-## `$ whoami`
-
-```bash
-root@cadush:~$ cat /etc/profile.d/carlos.conf
-```
+<img src="./assets/section-whoami.svg" width="100%" alt="whoami"/>
 
 ```yaml
-nome:        Carlos Eduardo Pacheco dos Santos
-cargo:       Analista de Segurança da Informação @ Catálise Investimentos
-local:       Curitiba - PR, Brasil 🇧🇷
-foco:        [Pentest, AppSec, Cloud Security, Detection Engineering, Threat Response]
-stack:       [SIEM, SOAR, EDR, IAM, Zero Trust, SSE/ZTNA]
-pesquisa:    [Engenharia Reversa, Análise de Malware, OSINT]
-formação:    Segurança da Informação — Uniasselvi (previsão 2027)
-idiomas:     [Português (nativo), Inglês (intermediário)]
-estudando:   [LPI 101, CC (ISC)²]
-pergunte:    [Pentest, AppSec, SIEM/SOAR, Cloud Security, Linux, Redes]
-status:      "sempre aprendendo, sempre caçando"
+# ~/.config/cadush/profile.yml
+name:      Carlos Eduardo Pacheco dos Santos
+role:      Analista de Segurança da Informação @ Catálise Investimentos
+location:  Curitiba, PR — Brasil
+focus:     [pentest, appsec, cloud-security, detection-engineering, incident-response]
+stack:     [siem, soar, edr, iam, zero-trust, sse/ztna]
+research:  [reverse-engineering, malware-analysis, osint]
+education: Segurança da Informação — Uniasselvi (2027)
+languages: { pt-BR: native, en: intermediate }
+learning:  [LPI-101, "(ISC)² CC"]
+ask_me:    [pentest, appsec, siem/soar, cloud-security, linux, networking]
 ```
 
-> 💡 Defendo como quem ataca, ataco como quem defende. Construo detecção, automatizo resposta e
-> quebro aplicações antes que alguém de fora o faça.
+> Defendo como quem ataca e ataco como quem defende.
+> Construo detecção, automatizo resposta e quebro aplicações antes que alguém de fora o faça.
 
----
-
-## 🧭 `$ cat experiencia.log`
-
-<details open>
-<summary><b>🛡️ Catálise Investimentos</b> — Analista de Segurança da Informação <code>07/2026 → atual</code></summary>
 <br>
 
-- Arquitetura e operação de controles de segurança de **rede, identidade, endpoint e acesso remoto**
-- **Fortigate**, **Netskope SSE/ZTNA** e **Microsoft Security**
-- **Pentest**, auditorias e **AppSec**
+<img src="./assets/section-experience.svg" width="100%" alt="git log --career"/>
 
-</details>
+```diff
+@@ 2026-07 → HEAD @@  Catálise Investimentos · Analista de Segurança da Informação
++ Arquitetura e operação de controles de rede, identidade, endpoint e acesso remoto
++ Fortigate · Netskope SSE/ZTNA · Microsoft Security
++ Pentest, auditorias e AppSec
 
-<details>
-<summary><b>🔐 Econet Editora Empresarial</b> — Analista de Suporte/Segurança <code>11/2025 → 06/2026</code></summary>
+@@ 2025-11 → 2026-06 @@  Econet Editora Empresarial · Analista de Suporte/Segurança
++ SIEM corporativo Wazuh na AWS: 4.500+ regras, 28 técnicas MITRE ATT&CK, 26 ativos monitorados
++ SOAR (Shuffle + TheHive + Cortex) com bloqueio automático de IPs maliciosos
++ Pentests Black Box e Gray Box no portal, na infraestrutura AWS e em APIs corporativas
++ Governança: Comitê de Segurança, políticas, standards e portal de gestão de credenciais
++ Monitoramento com Zabbix e Cloud Security
+
+@@ 2025-05 → 2025-11 @@  AEON Technologies · Analista de TI Jr II
++ Servidores Linux e Windows
++ Firewalls pfSense, Sophos e Fortinet · VPNs
++ Wazuh, PingCastle e OpenVAS
+```
+
 <br>
 
-- Implantei e administrei **SIEM corporativo (Wazuh) na AWS**:
-  - `4.500+` regras de detecção
-  - `28` técnicas **MITRE ATT&CK** mapeadas
-  - `26` ativos monitorados continuamente
-- Automações **SOAR** (Shuffle + TheHive + Cortex) com **bloqueio automático de IPs maliciosos**
-- Monitoramento com **Zabbix** e Cloud Security
-- **Pentests Black Box e Gray Box** e auditorias internas no portal institucional, infraestrutura AWS e APIs corporativas
-- Estruturei a **governança de segurança da informação**: Comitê de Segurança, políticas, standards e portal de gestão segura de credenciais
-
-</details>
-
-<details>
-<summary><b>🖥️ AEON Technologies</b> — Analista de TI Jr II <code>05/2025 → 11/2025</code></summary>
-<br>
-
-- Servidores **Linux e Windows**
-- Firewalls **pfSense, Sophos e Fortinet**
-- **VPNs**
-- **Wazuh**, **PingCastle** e **OpenVAS**
-
-</details>
-
----
-
-## ⚔️ `$ ls -la /arsenal/`
+<img src="./assets/section-arsenal.svg" width="100%" alt="ls -la /arsenal"/>
 
 <table>
-<tr>
-<td valign="top" width="50%">
-
-#### 🔴 Offensive / Red Team
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-238636?style=flat-square)
-![Hashcat](https://img.shields.io/badge/Hashcat-1ABC9C?style=flat-square)
-![dirb](https://img.shields.io/badge/dirb-FF6A00?style=flat-square)
-![netcat](https://img.shields.io/badge/netcat-1F8ACB?style=flat-square)
-![OSINT](https://img.shields.io/badge/OSINT-000000?style=flat-square)
-
-#### 🧬 Reverse Engineering & Forensics
-![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B0000?style=flat-square)
-![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering-4B0082?style=flat-square)
-![Memory Forensics](https://img.shields.io/badge/Memory%20Forensics-2F4F4F?style=flat-square)
-![Velociraptor](https://img.shields.io/badge/Velociraptor-5C2D91?style=flat-square)
-
-#### 🧪 AppSec / DevSecOps
-![SAST](https://img.shields.io/badge/SAST-0f3d0f?style=flat-square)
-![SCA](https://img.shields.io/badge/SCA-0f3d0f?style=flat-square)
-![DAST](https://img.shields.io/badge/DAST-0f3d0f?style=flat-square)
-![Secrets Scanning](https://img.shields.io/badge/Secrets%20Scanning-0f3d0f?style=flat-square)
-![Container Security](https://img.shields.io/badge/Container%20Security-0f3d0f?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-</td>
-<td valign="top" width="50%">
-
-#### 🔵 Defensive / Blue Team
-![Wazuh](https://img.shields.io/badge/Wazuh-3595D6?style=flat-square&logo=wazuh&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Sentinel](https://img.shields.io/badge/Microsoft%20Sentinel-0078D4?style=flat-square)
-![TheHive](https://img.shields.io/badge/TheHive-F2B33D?style=flat-square)
-![Cortex](https://img.shields.io/badge/Cortex-1E3A5F?style=flat-square)
-![Shuffle](https://img.shields.io/badge/Shuffle-F86A3E?style=flat-square)
-![CrowdStrike](https://img.shields.io/badge/CrowdStrike-FC0000?style=flat-square&logo=crowdstrike&logoColor=white)
-![Kaspersky](https://img.shields.io/badge/Kaspersky-006D5C?style=flat-square)
-![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat-square)
-![Snort](https://img.shields.io/badge/Snort-F80000?style=flat-square)
-![Fail2ban](https://img.shields.io/badge/Fail2ban-8B0000?style=flat-square)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-C8102E?style=flat-square)
-
-#### 🌐 Network, Cloud & Zero Trust
-![FortiGate](https://img.shields.io/badge/FortiGate-EE3124?style=flat-square&logo=fortinet&logoColor=white)
-![FortiWeb](https://img.shields.io/badge/FortiWeb%20400F-EE3124?style=flat-square&logo=fortinet&logoColor=white)
-![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat-square&logo=pfsense&logoColor=white)
-![Sophos](https://img.shields.io/badge/Sophos-0049B7?style=flat-square)
-![Netskope](https://img.shields.io/badge/Netskope%20SSE%2FZTNA-00A3E0?style=flat-square)
-![AWS](https://img.shields.io/badge/AWS%20Security-FF9900?style=flat-square)
-![Microsoft Security](https://img.shields.io/badge/Microsoft%20Security-5E5E5E?style=flat-square)
-![iptables](https://img.shields.io/badge/iptables-CC0000?style=flat-square)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-#### 💻 Linguagens & Scripting
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square)
-
-</td>
-<td valign="top">
-
-#### ⚙️ Infra, Monitoramento & Vuln Mgmt
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=flat-square)
-![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square&logo=zabbix&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
-![OpenVAS](https://img.shields.io/badge/OpenVAS-66C430?style=flat-square)
-![PingCastle](https://img.shields.io/badge/PingCastle-1F4E79?style=flat-square)
-
-</td>
-</tr>
+  <tr>
+    <td width="170"><code>offensive</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/Metasploit-161b22?style=for-the-badge&logo=metasploit&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Nmap-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Hashcat-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/dirb-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/netcat-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/OSINT-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>detection</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/Wazuh-161b22?style=for-the-badge&logo=wazuh&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Splunk-161b22?style=for-the-badge&logo=splunk&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Sentinel-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Suricata-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Snort-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/MITRE_ATT%26CK-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>response</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/TheHive-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Cortex-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Shuffle-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Fail2ban-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>endpoint</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/CrowdStrike-161b22?style=for-the-badge&logo=crowdstrike&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Velociraptor-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Kaspersky-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>network · zt</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/FortiGate-161b22?style=for-the-badge&logo=fortinet&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/FortiWeb_400F-161b22?style=for-the-badge&logo=fortinet&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/pfSense-161b22?style=for-the-badge&logo=pfsense&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Sophos-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Netskope_SSE%2FZTNA-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/iptables-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>cloud · iam</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/AWS_Security-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Microsoft_Security-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/IAM-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Zero_Trust-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>appsec</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/SAST-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/SCA-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/DAST-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Secrets_Scanning-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Container_Security-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=00ff41"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>forensics · re</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/Reverse_Engineering-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Malware_Analysis-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Memory_Forensics-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>vuln mgmt</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/OpenVAS-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/PingCastle-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>lang</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Go-161b22?style=for-the-badge&logo=go&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Bash-161b22?style=for-the-badge&logo=gnubash&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/PowerShell-161b22?style=for-the-badge"/>
+    </td>
+  </tr>
+  <tr>
+    <td><code>infra</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/Linux-161b22?style=for-the-badge&logo=linux&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Windows_Server-161b22?style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Zabbix-161b22?style=for-the-badge&logo=zabbix&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Grafana-161b22?style=for-the-badge&logo=grafana&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/Proxmox-161b22?style=for-the-badge&logo=proxmox&logoColor=00ff41"/>
+      <img src="https://img.shields.io/badge/VMware-161b22?style=for-the-badge&logo=vmware&logoColor=00ff41"/>
+    </td>
+  </tr>
 </table>
 
----
+<br>
 
-## 🏅 `$ cat /certs/*`
+<img src="./assets/section-certs.svg" width="100%" alt="cat /certs/*"/>
 
-| Emissor | Certificação | Ano |
+| issuer | credential | year |
 |:--|:--|:--:|
-| <img src="https://img.shields.io/badge/-Fortinet-EE3124?style=flat-square&logo=fortinet&logoColor=white"/> | NSE 1, 2 e 3 | 2025 |
-| <img src="https://img.shields.io/badge/-Fortinet-EE3124?style=flat-square&logo=fortinet&logoColor=white"/> | **FCP — FortiSIEM 7.2 Analyst** | 2025 |
-| <img src="https://img.shields.io/badge/-Fortinet-EE3124?style=flat-square&logo=fortinet&logoColor=white"/> | **FCP — FortiSOAR 7.3 Administrator** | 2025 |
-| <img src="https://img.shields.io/badge/-CyberWarFare-000000?style=flat-square"/> | **Multi-Cloud Blue Team Analyst (MCBTA)** | 2026 |
-| <img src="https://img.shields.io/badge/-CyberWarFare-000000?style=flat-square"/> | **Multi-Cloud Red Team Analyst (MCRTA)** | 2026 |
-| <img src="https://img.shields.io/badge/-CyberWarFare-000000?style=flat-square"/> | **Certified Red Team Analyst (CRTA)** | 2026 |
-| <img src="https://img.shields.io/badge/-Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/> | Analista de Segurança Jr | 2025 |
-| <img src="https://img.shields.io/badge/-Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/> | Ethical Hacker | 2025 |
-| <img src="https://img.shields.io/badge/-Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/> | CCNP Enterprise: Core Networking | 2025 |
-| <img src="https://img.shields.io/badge/-SkillFront-0D6EFD?style=flat-square"/> | ISO/IEC 27001:2022 | 2025 |
+| `Fortinet` | **FCP — FortiSIEM 7.2 Analyst** | 2025 |
+| `Fortinet` | **FCP — FortiSOAR 7.3 Administrator** | 2025 |
+| `Fortinet` | NSE 1 · NSE 2 · NSE 3 | 2025 |
+| `CyberWarFare Labs` | **Certified Red Team Analyst (CRTA)** | 2026 |
+| `CyberWarFare Labs` | **Multi-Cloud Red Team Analyst** | 2026 |
+| `CyberWarFare Labs` | **Multi-Cloud Blue Team Analyst** | 2026 |
+| `Cisco` | CCNP Enterprise: Core Networking | 2025 |
+| `Cisco` | Ethical Hacker | 2025 |
+| `Cisco` | Analista de Segurança Jr | 2025 |
+| `SkillFront` | ISO/IEC 27001:2022 | 2025 |
+
+<sub>Credenciais verificáveis em <a href="https://www.linkedin.com/in/cadush/details/certifications/">linkedin.com/in/cadush/details/certifications</a></sub>
+
+<br><br>
+
+<img src="./assets/section-projects.svg" width="100%" alt="ls ~/projects"/>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/cadush/details/certifications/">
-    <img src="https://img.shields.io/badge/Ver%20todas%20no%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Certificações"/>
+  <a href="https://github.com/Cadush/SECops">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=SECops&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41"/>
+      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=SECops&hide_border=true&title_color=1a7f37&icon_color=1a7f37" alt="SECops"/>
+    </picture>
+  </a>
+  <a href="https://github.com/Cadush/Dump_Memory">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=Dump_Memory&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41"/>
+      <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=Dump_Memory&hide_border=true&title_color=1a7f37&icon_color=1a7f37" alt="Dump_Memory"/>
+    </picture>
   </a>
 </p>
 
----
+| repo | o que faz | stack |
+|:--|:--|:--|
+| [`SECops`](https://github.com/Cadush/SECops) | **APPSEC-SECops Automation**: orquestra SAST, SCA, secrets scanning, container security, DAST e vulnerability management num único pipeline | `devsecops` |
+| [`Dump_Memory`](https://github.com/Cadush/Dump_Memory) | Aquisição forense de memória em Linux sem dependências externas: imagem comprimida, hashes de custódia, índice de segmentos e relatório | `go` `dfir` |
+| [`LFIHUNTER`](https://github.com/Cadush/LFIHUNTER) | Detecção e validação de LFI com evidência clara e menos falsos positivos | `python` `pentest` |
+| [`Fail2ban-Monitor`](https://github.com/Cadush/Fail2ban-Monitor) | Painel em tempo real para Fail2Ban: IPs banidos, padrões de ataque e gestão de bans pelo terminal | `python` `blue-team` |
+| [`Calculadora_Redes`](https://github.com/Cadush/Calculadora_Redes) | Calculadora de sub-redes IPv4 com interface Rich no terminal | `python` `net` |
+| [`SCAN_REDE`](https://github.com/Cadush/SCAN_REDE) | Varredura de rede local: hosts ativos, IP, MAC, hostname e serviços | `bash` `recon` |
+| [`imapsync_Migracao`](https://github.com/Cadush/imapsync_Migracao) | Migração segura de caixas entre servidores IMAP | `bash` `infra` |
+| [`Backup`](https://github.com/Cadush/Backup) | Backups automatizados em Linux com rsync e cron, com foco em integridade | `bash` `infra` |
 
-## 📂 `$ ls ~/projetos/`
+<br>
 
-| | Projeto | Descrição | Stack |
-|:-:|:--|:--|:--|
-| 🛡️ | [**SECops**](https://github.com/Cadush/SECops) | **APPSEC-SECops Automation**: orquestra SAST, SCA, secrets scanning, container security, DAST e vulnerability management em um único pipeline | `DevSecOps` `AppSec` |
-| 🧠 | [**Dump_Memory**](https://github.com/Cadush/Dump_Memory) | Ferramenta forense para aquisição de dumps de memória em Linux sem dependências externas: imagens comprimidas, hashes de custódia, índice de segmentos e relatórios | `Go` `Forensics` |
-| 🎯 | [**LFIHUNTER**](https://github.com/Cadush/LFIHUNTER) | Detecção e validação de **LFI (Local File Inclusion)** com evidências claras e redução de falsos positivos | `Python` `Pentest` |
-| 🚨 | [**Fail2ban-Monitor**](https://github.com/Cadush/Fail2ban-Monitor) | Painel em tempo real para Fail2Ban: IPs banidos, padrões de ataque e gestão de bans pelo terminal | `Python` `Blue Team` |
-| 🧮 | [**Calculadora_Redes**](https://github.com/Cadush/Calculadora_Redes) | Calculadora de sub-redes IPv4 com interface **Rich** no terminal | `Python` `Redes` |
-| 🔍 | [**SCAN_REDE**](https://github.com/Cadush/SCAN_REDE) | Escaneamento de redes locais: hosts ativos, IP, MAC, hostname e serviços | `Bash` `Recon` |
-| 📧 | [**imapsync_Migracao**](https://github.com/Cadush/imapsync_Migracao) | Migração segura de e-mails entre servidores IMAP com imapsync | `Bash` `Infra` |
-| 🗄️ | [**Backup**](https://github.com/Cadush/Backup) | Backups automatizados em Linux com rsync e cron, com foco em integridade | `Bash` `Infra` |
-
-<p align="center">
-  <a href="https://github.com/Cadush/SECops"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=SECops&theme=chartreuse-dark&hide_border=true&bg_color=0d1117" /></a>
-  <a href="https://github.com/Cadush/Dump_Memory"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=Dump_Memory&theme=chartreuse-dark&hide_border=true&bg_color=0d1117" /></a>
-  <a href="https://github.com/Cadush/LFIHUNTER"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=LFIHUNTER&theme=chartreuse-dark&hide_border=true&bg_color=0d1117" /></a>
-  <a href="https://github.com/Cadush/Fail2ban-Monitor"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Cadush&repo=Fail2ban-Monitor&theme=chartreuse-dark&hide_border=true&bg_color=0d1117" /></a>
-</p>
-
----
-
-## 🧠 `$ cat /proc/mindset`
+<img src="./assets/section-mindset.svg" width="100%" alt="cat /proc/mindset"/>
 
 ```text
-┌──────────────────────────────────────────────────────────────────┐
-│  RECON ──▶ EXPLOIT ──▶ REPORT ──▶ DETECT ──▶ AUTOMATE ──▶ HARDEN │
-│    ▲                                                         │   │
-│    └─────────────────────── repeat ◀─────────────────────────┘   │
-└──────────────────────────────────────────────────────────────────┘
+ ┌─────────┐    ┌─────────┐    ┌─────────┐    ┌─────────┐    ┌──────────┐    ┌─────────┐
+ │  RECON  │───▶│ EXPLOIT │───▶│ REPORT  │───▶│ DETECT  │───▶│ AUTOMATE │───▶│ HARDEN  │
+ └─────────┘    └─────────┘    └─────────┘    └─────────┘    └──────────┘    └────┬────┘
+      ▲                                                                           │
+      └──────────────────────────────── feedback loop ◀───────────────────────────┘
+
+  red     pentest black/gray box em web, APIs e AWS
+  blue    detecções mapeadas no MITRE ATT&CK + SOAR que responde sozinho
+  purple  todo achado de pentest vira regra de detecção e playbook
+  grc     políticas, standards, comitê de segurança, ISO/IEC 27001
 ```
 
-- 🔴 **Red:** pentest Black/Gray Box em web, APIs e AWS
-- 🔵 **Blue:** SIEM com detecções mapeadas no MITRE ATT&CK e SOAR que responde sozinho
-- 🟣 **Purple:** cada achado do pentest vira regra de detecção e playbook
-- 🟢 **Gov:** políticas, standards, comitê de segurança e ISO/IEC 27001
+<br>
 
----
+<img src="./assets/section-stats.svg" width="100%" alt="htop --github"/>
 
-## 🎮 `$ thm --stats`
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Cadush&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41"/>
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=Cadush&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=1a7f37&icon_color=1a7f37" alt="GitHub stats"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Cadush&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41"/>
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cadush&layout=compact&langs_count=8&hide_border=true&title_color=1a7f37" alt="Top languages"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Cadush&bg_color=0d1117&color=8b949e&line=00ff41&point=e6edf3&area=true&area_color=00ff41&hide_border=true"/>
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Cadush&bg_color=ffffff&color=57606a&line=1a7f37&point=1f2328&area=true&area_color=1a7f37&hide_border=true" alt="Activity graph"/>
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://tryhackme.com/p/c.sh">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/c.sh.png" alt="TryHackMe Badge"/>
+    <img src="https://tryhackme-badges.s3.amazonaws.com/c.sh.png" alt="TryHackMe"/>
   </a>
 </p>
 
----
+<br>
 
-## 📈 `$ git log --stats`
+<img src="./assets/section-contact.svg" width="100%" alt="./connect.sh"/>
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Cadush&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cadush&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&langs_count=8" alt="Top Langs"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Cadush&theme=chartreuse-dark&hide_border=true&background=0d1117" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Cadush&theme=matrix&no-frame=true&no-bg=true&margin-w=6&row=1" alt="Trophies"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cadush&bg_color=0d1117&color=00ff00&line=00ff00&point=ffffff&area=true&hide_border=true" alt="Activity Graph"/>
-</p>
-
----
-
-## 📬 `$ ./contato.sh`
-
-```bash
-root@cadush:~$ ./contato.sh
-[+] LinkedIn   → linkedin.com/in/cadush
-[+] Portfólio  → cadush.github.io
-[+] GitHub     → github.com/Cadush
-[+] TryHackMe  → tryhackme.com/p/c.sh
-[+] Email      → carloseduardosh04@gmail.com
-[✓] Conexão estabelecida. Bora conversar sobre segurança.
+```console
+root@cadush:~$ ./connect.sh --all
+[+] linkedin    linkedin.com/in/cadush
+[+] web         cadush.github.io
+[+] github      github.com/Cadush
+[+] tryhackme   tryhackme.com/p/c.sh
+[+] mail        carloseduardosh04@gmail.com
+[*] handshake complete — vamos conversar sobre segurança.
 ```
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff00,50:0f3d0f,100:0d1117&height=120&section=footer" alt="footer"/>
-</p>
-
-<p align="center">
-  <code>root@cadush:~$ exit</code><br>
-  <sub>Scanning README... <b>[Vulnerabilities: 0]</b></sub>
-</p>
+<a href="https://cadush.github.io">
+  <img src="./assets/footer.svg" width="100%" alt="root@cadush:~$ exit"/>
+</a>
