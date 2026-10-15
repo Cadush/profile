@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="root@cadush:~$ exit">
+  <title>root@cadush:~$ exit</title>
+  <defs>
+    <style>
+      .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .bar { animation: fill 3.5s steps(28) infinite; }
+      @keyframes fill { 0% { transform: scaleX(0); } 70%,100% { transform: scaleX(1); } }
+      .done { opacity: 0; animation: done 3.5s steps(1) infinite; }
+      @keyframes done { 0%,69% { opacity: 0; } 70%,100% { opacity: 1; } }
+      .cur { animation: b 1s steps(1) infinite; }
+      @keyframes b { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .done { opacity: 1; } }
+    </style>
+  </defs>
+  <rect x="10" y="10" width="1180" height="120" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <g class="m" font-size="16">
+    <text x="40" y="52"><tspan fill="#00ff41">root@cadush</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">./scan --target README.md</tspan></text>
+    <text x="40" y="84" fill="#8b949e">[</text>
+    <rect x="52" y="71" width="336" height="16" fill="#161b22"/>
+    <rect class="bar" x="52" y="71" width="336" height="16" fill="#00ff41" style="transform-box: fill-box; transform-origin: left center"/>
+    <text x="394" y="84" fill="#8b949e">]</text>
+    <text class="done" x="416" y="84" fill="#00ff41">done · vulnerabilities found: 0 · thanks for reading</text>
+    <text x="40" y="114"><tspan fill="#00ff41">root@cadush</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">exit</tspan><tspan class="cur" fill="#00ff41"> █</tspan></text>
+  </g>
+  <text class="m" x="1160" y="114" font-size="12" fill="#484f58" text-anchor="end">connection to cadush closed.</text>
+</svg>

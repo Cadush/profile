@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+  <title id="t">Carlos Santos</title>
+  <desc id="d">Information Security Analyst — Pentest, AppSec, Cloud Security</desc>
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .rain { fill: #00ff41; font-size: 14px; writing-mode: vertical-lr; text-orientation: upright; letter-spacing: 2px; opacity: .14; }
+      .r1 { animation: fall 7s linear infinite; }
+      .r2 { animation: fall 9s linear infinite -3s; }
+      .r3 { animation: fall 6s linear infinite -1s; }
+      .r4 { animation: fall 11s linear infinite -6s; }
+      .r5 { animation: fall 8s linear infinite -4s; }
+      @keyframes fall { from { transform: translateY(-420px); } to { transform: translateY(420px); } }
+
+      .scan { animation: scan 5s linear infinite; }
+      @keyframes scan { from { transform: translateY(-20px); } to { transform: translateY(400px); } }
+
+      .name { font-size: 76px; font-weight: 800; letter-spacing: 6px; }
+      .g1 { fill: #ff00e1; opacity: .7; animation: gl1 3.2s steps(1) infinite; }
+      .g2 { fill: #00e5ff; opacity: .7; animation: gl2 3.2s steps(1) infinite; }
+      @keyframes gl1 { 0%,86%,100% { transform: translate(0,0); opacity: 0; } 88% { transform: translate(-5px,2px); opacity: .8; } 91% { transform: translate(4px,-2px); opacity: .8; } 94% { transform: translate(-2px,0); opacity: .6; } }
+      @keyframes gl2 { 0%,86%,100% { transform: translate(0,0); opacity: 0; } 88% { transform: translate(5px,-2px); opacity: .8; } 91% { transform: translate(-4px,2px); opacity: .8; } 94% { transform: translate(2px,0); opacity: .6; } }
+
+      .type1 { animation: type1 1s steps(6) .4s forwards; }
+      @keyframes type1 { to { transform: translateX(80px); } }
+      .type2 { animation: type2 2.4s steps(34) 2.8s forwards; }
+      @keyframes type2 { to { transform: translateX(380px); } }
+      .fade { opacity: 0; animation: in .6s ease-out forwards; }
+      .d1 { animation-delay: 1.9s; } .d2 { animation-delay: 2.3s; } .d3 { animation-delay: 5.6s; }
+      @keyframes in { to { opacity: 1; } }
+      .blink { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .fade { opacity: 1; } .cover { display: none; } }
+    </style>
+    <linearGradient id="scanG" x1="0" x2="1">
+      <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00ff41" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx=".5" cy=".45" r=".75">
+      <stop offset="0" stop-color="#0f2a14" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#00ff41" stroke-opacity=".05"/>
+    </pattern>
+    <clipPath id="win"><rect x="10" y="10" width="1180" height="360" rx="14"/></clipPath>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- window -->
+  <rect x="10" y="10" width="1180" height="360" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#win)">
+    <rect x="10" y="10" width="1180" height="360" fill="url(#grid)"/>
+    <rect x="10" y="10" width="1180" height="360" fill="url(#vignette)"/>
+
+    <!-- matrix rain -->
+    <g class="mono">
+      <text class="rain r1" x="40"  y="0">1001011010010110100101</text>
+      <text class="rain r3" x="110" y="0">0110100101101001011010</text>
+      <text class="rain r5" x="190" y="0">1101001011010010110100</text>
+      <text class="rain r2" x="270" y="0">0010110100101101001011</text>
+      <text class="rain r4" x="350" y="0">1011010010110100101101</text>
+      <text class="rain r1" x="440" y="0">0100101101001011010010</text>
+      <text class="rain r3" x="520" y="0">1110100101101001011010</text>
+      <text class="rain r5" x="600" y="0">0101101001011010010110</text>
+      <text class="rain r2" x="690" y="0">1001011010010110100101</text>
+      <text class="rain r4" x="770" y="0">0110100101101001011010</text>
+      <text class="rain r1" x="850" y="0">1101001011010010110100</text>
+      <text class="rain r3" x="930" y="0">0010110100101101001011</text>
+      <text class="rain r5" x="1010" y="0">1011010010110100101101</text>
+      <text class="rain r2" x="1090" y="0">0100101101001011010010</text>
+      <text class="rain r4" x="1160" y="0">1110100101101001011010</text>
+    </g>
+
+    <!-- title bar -->
+    <rect x="10" y="10" width="1180" height="40" fill="#161b22"/>
+    <line x1="10" y1="50" x2="1190" y2="50" stroke="#30363d"/>
+    <circle cx="38" cy="30" r="6.5" fill="#ff5f56"/>
+    <circle cx="60" cy="30" r="6.5" fill="#ffbd2e"/>
+    <circle cx="82" cy="30" r="6.5" fill="#27c93f"/>
+    <text class="mono" x="600" y="35" text-anchor="middle" fill="#58a6ff" font-size="14">root@cadush: ~ — zsh — 120×36</text>
+    <g class="mono" font-size="12" fill="#8b949e" text-anchor="end">
+      <circle class="pulse" cx="1094" cy="30" r="4" fill="#00ff41"/>
+      <text x="1170" y="34">ONLINE</text>
+    </g>
+
+    <!-- line 1: whoami -->
+    <g class="mono" font-size="20">
+      <text x="56" y="100"><tspan fill="#00ff41">root@cadush</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan></text>
+      <text x="216" y="100" fill="#e6edf3">whoami</text>
+      <rect class="cover type1" x="214" y="80" width="90" height="28" fill="#0d1117"/>
+    </g>
+
+    <!-- name with glitch -->
+    <g class="mono name" filter="url(#glow)">
+      <text class="g1" x="56" y="192">CARLOS SANTOS</text>
+      <text class="g2" x="56" y="192">CARLOS SANTOS</text>
+      <text class="fade d1" x="56" y="192" fill="#00ff41">CARLOS SANTOS</text>
+    </g>
+    <text class="mono fade d2" x="60" y="232" font-size="19" fill="#c9d1d9">Information Security Analyst  <tspan fill="#30363d">//</tspan>  Pentest  <tspan fill="#30363d">·</tspan>  AppSec  <tspan fill="#30363d">·</tspan>  Cloud Security</text>
+
+    <!-- line 2: status -->
+    <g class="mono" font-size="18">
+      <text x="56" y="290"><tspan fill="#00ff41">root@cadush</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan></text>
+      <text x="206" y="290" fill="#e6edf3">./status --live --threat-model=all</text>
+      <rect class="cover type2" x="204" y="272" width="400" height="26" fill="#0d1117"/>
+    </g>
+    <text class="mono fade d3" x="56" y="326" font-size="16" fill="#8b949e"><tspan fill="#00ff41">[ok]</tspan> SIEM <tspan fill="#30363d">·</tspan> SOAR <tspan fill="#30363d">·</tspan> EDR <tspan fill="#30363d">·</tspan> Zero Trust <tspan fill="#30363d">·</tspan> Reverse Engineering <tspan fill="#30363d">·</tspan> <tspan fill="#ff7b72">vulnerabilities: 0</tspan><tspan class="blink" fill="#00ff41"> █</tspan></text>
+
+    <!-- HUD -->
+    <g class="mono" font-size="11" fill="#484f58" text-anchor="end">
+      <text x="1166" y="82">LAT -25.4284  LON -49.2733</text>
+      <text x="1166" y="98">CWB · PR · BR</text>
+      <text x="1166" y="350">MITRE ATT&amp;CK · OWASP · ISO/IEC 27001</text>
+    </g>
+    <path d="M1060 112h106v-6M1166 318v-6h-106" fill="none" stroke="#30363d"/>
+
+    <!-- scanline -->
+    <rect class="scan" x="10" y="0" width="1180" height="2" fill="url(#scanG)"/>
+  </g>
+</svg>
